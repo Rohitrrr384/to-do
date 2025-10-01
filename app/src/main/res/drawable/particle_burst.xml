@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Burst particles -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M12,2l1,3l3,-1l-1,3l3,1l-3,1l1,3l-3,-1l-1,3l-1,-3l-3,1l1,-3l-3,-1l3,-1l-1,-3l3,1z"/>
+    
+    <!-- Small particles -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.8"
+        android:pathData="M6,6m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+    <path
+        android:fillColor="#4ECDC4"
+        android:fillAlpha="0.8"
+        android:pathData="M18,6m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+    <path
+        android:fillColor="#45B7D1"
+        android:fillAlpha="0.8"
+        android:pathData="M6,18m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+    <path
+        android:fillColor="#FFA726"
+        android:fillAlpha="0.8"
+        android:pathData="M18,18m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+</vector>

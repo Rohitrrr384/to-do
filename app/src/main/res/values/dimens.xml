@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bubble dimensions -->
+    <dimen name="bubble_min_size">120dp</dimen>
+    <dimen name="bubble_max_size">200dp</dimen>
+    <dimen name="bubble_text_size">12sp</dimen>
+    <dimen name="bubble_padding">20dp</dimen>
+    <dimen name="bubble_stroke_width">3dp</dimen>
+
+    <!-- Layout dimensions -->
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="container_padding">16dp</dimen>
+    <dimen name="title_bar_height">64dp</dimen>
+
+    <!-- Animation values -->
+    <integer name="bubble_entrance_duration">600</integer>
+    <integer name="bubble_completion_duration">500</integer>
+    <integer name="bubble_burst_duration">300</integer>
+    <integer name="bubble_float_duration">2000</integer>
+
+    <!-- Text dimensions -->
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="instruction_text_size">16sp</dimen>
+    <dimen name="dialog_text_size">16sp</dimen>
+</resources>

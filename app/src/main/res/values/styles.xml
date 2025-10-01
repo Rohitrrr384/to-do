@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/bubble_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Bubble text style -->
+    <style name="BubbleTextStyle">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/bubble_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:padding">@dimen/bubble_padding</item>
+    </style>
+
+    <!-- Dialog theme -->
+    <style name="BubbleDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+        <style name="BubbleAnimation">
+            <item name="android:duration">300</item>
+            <item name="android:interpolator">@android:anim/accelerate_decelerate_interpolator</item>
+        </style>
+
+        <style name="BubbleAnimation.Flow" parent="BubbleAnimation">
+            <item name="android:duration">1500</item>
+            <item name="android:interpolator">@android:anim/accelerate_decelerate_interpolator</item>
+        </style>
+
+    <!-- FAB style -->
+    <style name="BubbleFABStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/fab_color</item>
+        <item name="tint">@color/text_primary</item>
+        <item name="elevation">8dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+    </style>
+</resources>

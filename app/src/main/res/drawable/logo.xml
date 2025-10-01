@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Main bubble gradient effect -->
+    <path
+        android:fillColor="#4ECDC4"
+        android:pathData="M24,4C33.9,4 42,12.1 42,22C42,31.9 33.9,40 24,40C14.1,40 6,31.9 6,22C6,12.1 14.1,4 24,4Z"/>
+
+    <!-- Shine effect -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.5"
+        android:pathData="M18,14C20.8,14 23,16.2 23,19C23,21.8 20.8,24 18,24C15.2,24 13,21.8 13,19C13,16.2 15.2,14 18,14Z"/>
+
+    <!-- Checkmark inside bubble -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M20,28L16,24L17.4,22.6L20,25.2L26.6,18.6L28,20L20,28Z"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"/>
+
+    <!-- Small bubbles around -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.7"
+        android:pathData="M38,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+
+    <path
+        android:fillColor="#FFD93D"
+        android:fillAlpha="0.6"
+        android:pathData="M10,38m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"/>
+
+    <path
+        android:fillColor="#A8E6CF"
+        android:fillAlpha="0.5"
+        android:pathData="M42,36m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+</vector>

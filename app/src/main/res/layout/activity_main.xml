@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bubble_background"
+    >
+
+    <!-- Main bubble container where all task bubbles will be displayed -->
+
+    <!-- Title bar -->
+
+    <RelativeLayout
+        android:id="@+id/bubbleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleBar"
+        />
+
+    <LinearLayout
+        android:id="@+id/titleBar"
+        android:layout_width="400dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bar_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_bubble_logo" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🎈 Bubble To-Do"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/btnSettings"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:alpha="0.8"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            android:src="@drawable/ic_settings" />
+
+    </LinearLayout>
+
+    <!-- Floating Action Button to add new tasks -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="24dp"
+        android:src="@drawable/ic_add_bubble"
+        app:backgroundTint="@color/fab_color"
+        app:tint="@android:color/white"
+        app:elevation="8dp"
+        app:pressedTranslationZ="12dp" />
+
+    <!-- Instructions overlay for first time users -->
+    <LinearLayout
+        android:id="@+id/instructionsOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#88000000"
+        android:visibility="gone"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎈 Welcome to Bubble To-Do!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Tap bubbles to view tasks\n• Long press for options\n• Drag bubbles around\n• Swipe across multiple bubbles to burst them!"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGotIt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Got it!"
+            android:layout_marginTop="24dp"
+            app:backgroundTint="@color/fab_color"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="float_animator" type="id" />
+    <item name="bubble_physics" type="id" />
+    <item name="bubble_task" type="id" />
+</resources>

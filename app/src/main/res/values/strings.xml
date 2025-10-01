@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">To-Do</string>
+    <string name="add_task">Add New Task</string>
+    <string name="task_hint">Enter your task...</string>
+    <string name="category_work">Work</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_health">Health</string>
+    <string name="category_urgent">Urgent</string>
+
+    <!-- Messages -->
+    <string name="task_completed">🎉 Task completed!</string>
+    <string name="bubble_burst">💥 Bubble burst!</string>
+    <string name="bubble_pinned">📌 Bubble pinned to top!</string>
+    <string name="burst_mode">💥 Burst Mode Activated!</string>
+
+    <!-- Dialog messages -->
+    <string name="bubble_options">Bubble Options</string>
+    <string name="complete_task">Complete Task</string>
+    <string name="pin_to_top">Pin to Top</string>
+    <string name="delete_task">Delete</string>
+    <string name="edit_task">Edit</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="add_bubble">Add Bubble</string>
+
+    <!-- Instructions -->
+    <string name="welcome_title">🎈 Welcome to Bubble To-Do!</string>
+    <string name="instructions">• Tap bubbles to view tasks\n• Long press for options\n• Drag bubbles around\n• Swipe across multiple bubbles to burst them!</string>
+    <string name="got_it">Got it!</string>
+</resources>
